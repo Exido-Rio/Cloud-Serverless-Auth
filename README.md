@@ -25,7 +25,9 @@ Cloud Serverless Auth
 This is repository use aws cloud devolvement kit (CDK) to create a serverless application using aws lambda as runtime and other aws services described below .
 </p>
 
-
+## ENV SETUP :
+* Setup the aws cli using ```aws configure``` to add the access key and region 
+* Env Bootstraping https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping-env.html
 
 ## FEATURES :
 * [+] Uses AWS SecretManager for jwt signing secret 
